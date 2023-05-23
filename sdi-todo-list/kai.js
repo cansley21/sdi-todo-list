@@ -12,41 +12,6 @@ title.style.background = "green";
 let itemInput = document.getElementById('itemInput');
 let addItemButton = document.getElementById('addItemButton');
 let itemList = document.getElementById('itemList');
-
-
-
-
-
-
-
-
-
-
-
-// Function to add an item to the list
-function addItemToList() {
-  // Get the value from the input field
-  const newItem = itemInput.value;
-
-  // Create a new list item element
-  const listItem = document.createElement('li');
-  listItem.textContent = newItem;
-
-  // Append the new list item to the list
-  itemList.appendChild(listItem);
-
-  // Clear the input field
-  itemInput.value = '';
-}
-
-// Add event listener to the button
-addItemButton.addEventListener('click', addItemToList);
-
-
-
-
-
-
 //
 //<button id="button" type="button">Add Todo</button>
 //<button id="button2" type="button2">remove Todo</button>
